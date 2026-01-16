@@ -16,7 +16,7 @@ h3.style.color = "blue";
 container.appendChild(h3);
 
 const div = document.createElement("div");
-div.style.border = "3px black";
+div.setAttribute = ("style;", "border: 3px soild black;");
 div.style.backgroundColor = "pink";
 container.appendChild(div);
 

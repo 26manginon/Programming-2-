@@ -4,6 +4,7 @@
         <meta charset="UTF-8:>
         <meta name="viewport" content = "width=device-width, initial-scale=1.0">
         <title>DOM Practice</title>
+        <link rel="stylesheet" href="styles.css">
 </head>
 <body>
         <!-- <div class="container">
@@ -15,8 +16,24 @@
         and as I move down, subsequent children spread out.  -->
     
        
+<div class = "container2">
+        <button class="btn">click me</button>
+        <button class="one">click me</button>
+        <button class="two">click me</button>
+        <button class="three">click me</button>
+</div>
+<!-- Event Bubbling:     If I click button two, the button element gets the signal, and then it "bubbles up" to the div, then to the body,
+                                 then to the HTML, then to the document itself. Modern browsers also bubble to a "window" object  -->
 
-<button class="btn">click me</button>
+        <div class="track"></div>
+        <p class ="log"> </p>
+
+        <input type="text" class="message">
+
+        <ul id="menu"></ul>
+                <li><a class="menuItem" id="home">home</a></li>
+                <li><a class="menuItem"id="dashboard">dashboard</a></li>
+                <li><a class="menuItem" id="report">report</a></li>
 
 
 
